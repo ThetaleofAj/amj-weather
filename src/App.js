@@ -39,7 +39,7 @@ function App(){
     <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
     <div>
     <MDBCol md="6">
-      <MDBInput hint="Search" type="text" containerClass="active-pink active-pink-2 mt-0 mb-3"  onChange={(e) => setQuery(e.target.value)} value={query}
+      <MDBInput hint="What's your location..." type="text" containerClass="active-pink active-pink-2 mt-0 mb-3"  onChange={(e) => setQuery(e.target.value)} value={query}
        onKeyPress={search} />
     </MDBCol>
      {typeof weather.main != "undefined" ? (
