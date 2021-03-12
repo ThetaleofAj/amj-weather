@@ -1,26 +1,9 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  
-
-}
-.large-font {
-  font-size: 300px;
-  height: 300px;
-}
-
-.card1{
-  background-image:url(lsk2.jpg);
-  padding: 30px 20px 30px 50px
-}
-
-.image{
-  width: 300px;
-  height: 300px;
+  color: #fff;
+  overflow-x: hidden;
+  height: 100%;
+  background-image: linear-gradient(#81D4FA, #2196F3);
+  background-repeat: no-repeat
 }
 
 code {
@@ -30,40 +13,139 @@ code {
 main {
   min-height: 100vh;
   padding: 25px;
-  background-color: black;
+  background-color:black;
+}
+.Title{
+  font-size: 20px;
+   font-style: italic;
+}
+.ml-auto{
+  font-size: 20px;
+}
+.light-text{
+  font-size: 20px;
+}
+.weatherDetails{
+font-size: 50px;
+}
+.errorMessage{
+  color: white;
+}
 
+.div1{
+  bottom: 95%;
+}
+.Description{
+  font-size: 80px;
+}
+.Date{
+  font-size: 40px;
+  margin-right: 3px;
+}
+.Temperature{
+  font-size: 200px;
+  margin-right: 100px;
+}
+.Location {
+  font-size: 85px;
+  margin-top: 10px;
+  margin-right: 200px;
+  
+}
+.active-pink-2 input[type="text"]:focus:not([readonly]) {
+  border-bottom: 1px solid #f48fb1;
+  box-shadow: 0 1px 0 0 #f48fb1;
+}
+
+.card0 {
+  width: 94%
+}
+
+.card1 {
+  background-image: linear-gradient(#2196F3, #81D4FA);
+  padding: 30px 20px 30px 50px
+}
+
+.image {
+  width: 300px;
+  height: 300px
+}
+
+.large-font {
+  font-size: 90px;
+  font-family: Arial
+}
+.fa-sun-o {
+  font-size: 22px
+}
+
+.card2 {
+  background-color: #607D8B;
+  padding: 0px 0px 40px 40px
+}
+
+input {
+  background-color: #607D8B;
+  padding: 24px 0px 12px 0px !important;
+  width: 80%;
+  box-sizing: border-box;
+  border: none !important;
+  border-bottom: 1px solid #CFD8DC !important;
+  font-size: 16px !important;
+  color: #fff !important
+}
+
+input:focus {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border-bottom: 1px solid #fff !important;
+  outline-width: 0;
+  font-weight: 400
+}
+
+::placeholder {
+  color: #B0BEC5 !important;
+  opacity: 1
+}
+
+:-ms-input-placeholder {
+  color: #B0BEC5 !important
+}
+
+::-ms-input-placeholder {
+  color: #B0BEC5 !important
+}
+
+.fa-search {
+  color: #607D8B;
+  background-color: #E1F5FE;
+  font-size: 20px;
+  padding: 20px;
+  width: 20%;
+  cursor: pointer
+}
+
+.light-text {
+  color: #B0BEC5
+}
+
+.suggestion:hover {
+  color: #fff;
+  cursor: pointer
+}
+
+.line {
+  height: 1px;
+  background-color: #B0BEC5
+}
+
+@media screen and (max-width: 500px) {
+  .card1 {
+      padding-left: 26px
+  }
 }
 
 
-.location-container {
-  color: black;
-  font-size: 30px;
-  text-align: center;
-  text-shadow: 3px 3px rgba(58, 53, 53, 0.73)
-}
 
-.weather-container {
-  text-align: center;
-}
-
-.weather-container .temperature {
-  color: black;
-  position: relative;
-  display: inline-block;
-  margin: 30px auto;
-  padding: 15px 25px;
-  font-size: 100px;
-  font-weight: 700;
-  background-color: rgb(255, 255, 255, 0.1);
-  border-radius: 16px;
-  box-shadow: 3px 3px rgba(58, 53, 53, 0.73);
-  text-shadow: 3px 3px rgba(58, 53, 53, 0.73);
-}
-
-.weather-container .weather {
-  color: black;
-  font-size: 50px;
-  font-weight: 700;
-  text-shadow: 3px 3px rgba(58, 53, 53, 0.73);
-}
 
