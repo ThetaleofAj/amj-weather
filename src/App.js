@@ -51,10 +51,9 @@ function App(){
              <div className="row px-3 mt-3 mb-3">
                <h1 className="Temperature"> {Math.round(weather.main.temp)}°C</h1>
                <div className="div1">
-                 <h2 className="Location">{weather.name}, {weather.sys.country}</h2> <small className="Date">{dateSettigs(new Date())}</small>
+                <h2 className="Location">{weather.name}, {weather.sys.country}</h2> <small className="Date">{dateSettigs(new Date())}</small>
                </div>
                <div className="d-flex flex-column text-center">
-                 <h3 className="fa fa-sun-o mt-4" />
                </div>
              </div>
            </div>
