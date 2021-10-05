@@ -1,3 +1,17 @@
+# AMJ-WEATHER
+
+amj weather is a simple weather web app built in JavaScript that displays real time weather data of almost if not every city on the planet. Its takes a typed in location and gathers the weather data of that location via the openweather api then displays the results.
+
+![AMJWEATHER](https://user-images.githubusercontent.com/50357897/136061705-34d35dbc-6574-4021-9eb8-c59a41081c4e.gif)
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
